@@ -1,0 +1,21 @@
+// give five simulations, range in complexity, several iterations + grids - only few minutes to run
+// from easy to hard, schedule
+// 64 cores analysis, gpufi - 4
+// 3dmhd parameter + 3dmhd set (have terabyet to terabyte of free space)
+more makefile (check file)
+Can do thousands of iterations
+Checkpoint in 3dmhdset.f (using command ll)
+FINP = ‘1test3d1’ to set checkpoint
+More 1test3d1 to check the simulation details
+They will tell us which part can be changed which cannot be changed
+3dmhdset
+IPAR03 = 10
+IPAR04 = 1
+ Module load gcc/11.2.0
+Module load openmpi/4.1.1
+Vi makefile
+Fc = mpi90
+1test3d1.lis
+1test3d1.par
+R3dmhd-test-2695461.out
+Handin files x 3
