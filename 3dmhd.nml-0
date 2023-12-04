@@ -1,0 +1,5 @@
+$MyParameters
+  IPar(5) = 0
+  Finp = 'myOut-0'
+  fout = 'myOut-1'
+$End

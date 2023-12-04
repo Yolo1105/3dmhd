@@ -1,0 +1,76 @@
+# 3dmhd Record
+
+[ml7612@log-2 Rast-3dmhd]$ seff 38784861
+Job ID: 38784861
+Cluster: greene
+User/Group: ml7612/ml7612
+State: COMPLETED (exit code 0)
+Nodes: 2
+Cores per node: 24
+CPU Utilized: 03:45:19
+CPU Efficiency: 49.41% of 07:36:00 core-walltime
+Job Wall-clock time: 00:09:30
+Memory Utilized: 5.52 GB
+Memory Efficiency: 3.45% of 160.00 GB
+
+[ml7612@log-2 Rast-3dmhd]$ seff 38785599
+Job ID: 38785599
+Cluster: greene
+User/Group: ml7612/ml7612
+State: COMPLETED (exit code 0)
+Nodes: 2
+Cores per node: 12
+CPU Utilized: 02:11:29
+CPU Efficiency: 99.01% of 02:12:48 core-walltime
+Job Wall-clock time: 00:05:32
+Memory Utilized: 2.84 GB
+Memory Efficiency: 1.78% of 160.00 GB
+
+[ml7612@log-2 Rast-3dmhd]$ seff 38785820
+Job ID: 38785820
+Cluster: greene
+User/Group: ml7612/ml7612
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 24
+CPU Utilized: 03:45:08
+CPU Efficiency: 98.74% of 03:48:00 core-walltime
+Job Wall-clock time: 00:09:30
+Memory Utilized: 5.51 GB
+Memory Efficiency: 6.89% of 80.00 GB
+
+[ml7612@log-2 Rast-3dmhd]$ seff 38785950
+Job ID: 38785950
+Cluster: greene
+User/Group: ml7612/ml7612
+State: PENDING
+Cores: 1
+Efficiency not available for jobs in the PENDING state.
+
+(6,4)
+
+[ml7612@log-2 Rast-3dmhd]$ seff 38786026
+Job ID: 38786026
+Cluster: greene
+User/Group: ml7612/ml7612
+State: COMPLETED (exit code 0)
+Nodes: 4
+Cores per node: 6
+CPU Utilized: 01:43:45
+CPU Efficiency: 98.62% of 01:45:12 core-walltime
+Job Wall-clock time: 00:04:23
+Memory Utilized: 1.45 GB
+Memory Efficiency: 0.45% of 320.00 GB
+
+[ml7612@log-2 Rast-3dmhd]$ seff 38786069
+Job ID: 38786069
+Cluster: greene
+User/Group: ml7612/ml7612
+State: COMPLETED (exit code 0)
+Nodes: 3
+Cores per node: 8
+CPU Utilized: 01:49:25
+CPU Efficiency: 99.11% of 01:50:24 core-walltime
+Job Wall-clock time: 00:04:36
+Memory Utilized: 1.92 GB
+Memory Efficiency: 0.80% of 240.00 GB

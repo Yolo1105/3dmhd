@@ -1,0 +1,37 @@
+// Make a working directory under [netid]/3dmhd
+$ cd ml7612/3dmhd
+
+// Clone the source code and go to the package
+$ git clone https://github.com/dsmithlasp/Rast-3dmhd.git
+$ cd Rast-3dmhd
+
+// Edit make file to make it fit to the environment
+$ vi makefile
+// Edit the Fortran Compiler setting
+// Edit the gcc setting
+// Edit the Flag compiler setting
+esc :wq
+
+// Load the module to create the batch
+$ module load openmpi/intel/4.1.6
+
+// Gengerate a 3dmhd.exe file
+make
+
+// Check if the file exists now
+ls
+
+// Change the variable in 3dmhdvar.f
+NGrid
+Dimension
+
+// Check the process statusrthe av
+$ seff ID
+
+// Check for the queue status
+$ squeue -u
+$ Top
+
+// control + z end
+
+// Check the result

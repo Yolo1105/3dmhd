@@ -1,0 +1,6 @@
+$MyParameters
+  IPar(3) = 2000
+  IPar(5) = 500
+  Finp = 'myOut-1'
+  Fout = 'myOut-2'
+$End
